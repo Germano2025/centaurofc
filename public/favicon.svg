@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Shield path with gold border -->
+  <path d="M50 4 L86 16 C86 54 70 82 50 96 C30 82 14 54 14 16 Z" fill="#0A1D37" stroke="#F5BA2F" stroke-width="5" stroke-linejoin="round" />
+  <!-- Inner gold rim -->
+  <path d="M50 8 L82 19 C82 52 68 78 50 91 C32 78 18 52 18 19 Z" fill="#0A1D37" stroke="#DDA823" stroke-width="1.5" stroke-linejoin="round" />
+  <!-- Crossed Swords -->
+  <line x1="26" y1="34" x2="74" y2="72" stroke="#F5BA2F" stroke-width="3" stroke-linecap="round" />
+  <line x1="74" y1="34" x2="26" y2="72" stroke="#F5BA2F" stroke-width="3" stroke-linecap="round" />
+  <circle cx="28" cy="74" r="2.5" fill="#F5BA2F" />
+  <circle cx="72" cy="74" r="2.5" fill="#F5BA2F" />
+  <!-- Soccer Ball -->
+  <circle cx="50" cy="50" r="14" fill="#FFFFFF" stroke="#0A1D37" stroke-width="1.5" />
+  <polygon points="50,44 55,48 53,53 47,53 45,48" fill="#0A1D37" />
+  <line x1="50" y1="44" x2="50" y2="36" stroke="#0A1D37" stroke-width="1.2" />
+  <line x1="55" y1="48" x2="62" y2="45" stroke="#0A1D37" stroke-width="1.2" />
+  <line x1="53" y1="53" x2="59" y2="60" stroke="#0A1D37" stroke-width="1.2" />
+  <line x1="47" y1="53" x2="41" y2="60" stroke="#0A1D37" stroke-width="1.2" />
+  <line x1="45" y1="48" x2="38" y2="45" stroke="#0A1D37" stroke-width="1.2" />
+  <!-- Centauro text banner -->
+  <text x="50" y="27" font-family="system-ui, sans-serif" font-weight="900" font-size="8.5" fill="#F5BA2F" text-anchor="middle" letter-spacing="0.5">CENTAURO</text>
+</svg>

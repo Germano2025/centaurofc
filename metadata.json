@@ -1,0 +1,8 @@
+{
+  "name": "Centauro - Sistema de Gestão",
+  "description": "Plataforma gerencial, administrativa, técnica e financeira do Centauro",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
