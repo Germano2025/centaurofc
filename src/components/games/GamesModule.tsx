@@ -67,7 +67,7 @@ export const GamesModule: React.FC = () => {
   const [classId, setClassId] = useState(() => classes[0]?.id || '');
   const [matchDate, setMatchDate] = useState(() => new Date().toISOString().split('T')[0]);
   const [matchTime, setMatchTime] = useState('09:00');
-  const [location, setLocation] = useState('Campo Principal CT Caxangá');
+  const [location, setLocation] = useState('Campo Principal Centauro');
   const [competitionName, setCompetitionName] = useState('Amistoso Preparatório');
   const [notes, setNotes] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -151,7 +151,7 @@ export const GamesModule: React.FC = () => {
     setOpponent('');
     setMatchDate(new Date().toISOString().split('T')[0]);
     setMatchTime('09:00');
-    setLocation('Campo Principal CT Caxangá');
+    setLocation('Campo Principal Centauro');
     setCompetitionName('Amistoso Preparatório');
     setNotes('');
 
@@ -244,7 +244,7 @@ export const GamesModule: React.FC = () => {
         category: selectedClass?.category || 'Sub-11',
         match_date: matchDate,
         match_time: matchTime.trim() || undefined,
-        location: location.trim() || 'CT Caxangá',
+        location: location.trim() || 'Centauro',
         competition_name: competitionName.trim() || undefined,
         status: totalAthleteGoals > 0 ? 'REALIZADO' : 'AGENDADO',
         score_ps: totalAthleteGoals > 0 ? totalAthleteGoals : null,
@@ -504,7 +504,7 @@ export const GamesModule: React.FC = () => {
             Jogos & Competições
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-            Agendamento de partidas, convocação de atletas, registro de gols e histórico de torneios do CT Caxangá.
+            Agendamento de partidas, convocação de atletas, registro de gols e histórico de torneios do Centauro.
           </p>
         </div>
 
@@ -777,7 +777,7 @@ export const GamesModule: React.FC = () => {
                     </span>
                     <span className="flex items-center gap-1.5 font-medium truncate max-w-[180px]">
                       <MapPin size={13} className="text-slate-400 shrink-0" />
-                      <span className="truncate">{m.location || 'CT Caxangá'}</span>
+                      <span className="truncate">{m.location || 'Centauro'}</span>
                     </span>
                   </div>
 
@@ -831,7 +831,7 @@ export const GamesModule: React.FC = () => {
                 {/* Footer Actions */}
                 <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 mt-4">
                   <span className="text-[11px] text-slate-400 truncate max-w-[140px]">
-                    {m.notes ? `Obs: ${m.notes}` : 'CT Caxangá'}
+                    {m.notes ? `Obs: ${m.notes}` : 'Centauro'}
                   </span>
 
                   <div className="flex items-center gap-1.5">
@@ -927,7 +927,7 @@ export const GamesModule: React.FC = () => {
 
           <Input
             label="Local da Partida"
-            placeholder="Ex: Campo Principal CT Caxangá"
+            placeholder="Ex: Campo Principal Centauro"
             value={location}
             onChange={(e) => setLocation(e.target.value)}
           />
@@ -1162,7 +1162,7 @@ export const GamesModule: React.FC = () => {
                           {item.athleteName}
                         </span>
                         <span className="text-[10px] text-slate-400">
-                          {item.className || 'CT Caxangá'} •{' '}
+                          {item.className || 'Centauro'} •{' '}
                           {item.participated ? (
                             <strong className="text-emerald-700">Jogou / Em Campo</strong>
                           ) : (

@@ -1225,7 +1225,7 @@ export const AthleteDetailPage: React.FC<AthleteDetailPageProps> = ({
                           <span>•</span>
                           <span className="flex items-center gap-1">
                             <MapPin size={12} className="text-slate-400" />
-                            {m.location || 'CT Caxangá'}
+                            {m.location || 'Centauro'}
                           </span>
                           {(m.class_name || m.category) && (
                             <>

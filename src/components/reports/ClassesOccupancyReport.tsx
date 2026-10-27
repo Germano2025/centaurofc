@@ -68,7 +68,7 @@ export const ClassesOccupancyReport: React.FC<ClassesOccupancyReportProps> = ({
           coach: cls.coach_name || 'Comissão Técnica',
           scheduleDays: (cls.schedule_days || []).join(', ') || 'A definir',
           scheduleTime: cls.schedule_time || 'A definir',
-          location: cls.location || 'CT Caxangá',
+          location: cls.location || 'Centauro',
           capacity,
           activeCount,
           availableSlots,
@@ -205,7 +205,7 @@ export const ClassesOccupancyReport: React.FC<ClassesOccupancyReportProps> = ({
               {availableCategories.length} categorias
             </span>
           </div>
-          <p className="text-[11px] text-slate-400">Turmas ativas no CT Caxangá</p>
+          <p className="text-[11px] text-slate-400">Turmas ativas no Centauro</p>
         </div>
 
         <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-2xs space-y-1">

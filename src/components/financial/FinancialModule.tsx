@@ -362,7 +362,7 @@ export const FinancialModule: React.FC = () => {
             Financeiro & Mensalidades
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-            Controle de cobranças, mensalidades dos atletas, bolsas e fluxo de caixa do CT Caxangá.
+            Controle de cobranças, mensalidades dos atletas, bolsas e fluxo de caixa do Centauro.
           </p>
         </div>
 

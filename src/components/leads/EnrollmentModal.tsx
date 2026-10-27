@@ -50,7 +50,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
       isOpen={isOpen}
       onClose={onClose}
       title="Efetivar Matrícula do Aluno"
-      description={`Transformar ${lead.athlete_name} em atleta oficial do CT Caxangá`}
+      description={`Transformar ${lead.athlete_name} em atleta oficial do Centauro`}
       size="md"
     >
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -108,7 +108,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
         </div>
 
         <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-900 leading-relaxed">
-          Ao confirmar, o interessado será movido para o status <strong>Matriculado</strong>, sua ficha completa de atleta será criada no CT Caxangá e o responsável será vinculado.
+          Ao confirmar, o interessado será movido para o status <strong>Matriculado</strong>, sua ficha completa de atleta será criada no Centauro e o responsável será vinculado.
         </div>
 
         <div className="flex justify-end gap-2 pt-3 border-t border-slate-100">

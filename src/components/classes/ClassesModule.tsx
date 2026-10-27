@@ -138,7 +138,7 @@ export const ClassesModule: React.FC = () => {
     setEditScheduleTime(cls.schedule_time || '');
     setEditCapacity(String(cls.capacity_recommended || 30));
     setEditCoachName(cls.coach_name || '');
-    setEditLocation(cls.location || 'CT Caxangá');
+    setEditLocation(cls.location || 'Centauro');
     setEditActive(cls.active ?? true);
   };
 
@@ -163,7 +163,7 @@ export const ClassesModule: React.FC = () => {
       capacity_recommended: Number(newCapacity) || 30,
       active: true,
       coach_name: newCoachName.trim() || undefined,
-      location: newLocation.trim() || 'CT Caxangá',
+      location: newLocation.trim() || 'Centauro',
     });
 
     setIsNewClassModalOpen(false);
@@ -192,7 +192,7 @@ export const ClassesModule: React.FC = () => {
       schedule_time: editScheduleTime.trim(),
       capacity_recommended: Number(editCapacity) || 30,
       coach_name: editCoachName.trim() || undefined,
-      location: editLocation.trim() || 'CT Caxangá',
+      location: editLocation.trim() || 'Centauro',
       active: editActive,
     });
 
@@ -242,7 +242,7 @@ export const ClassesModule: React.FC = () => {
             Turmas & Horários
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-            Gerenciamento completo das turmas, categorias, cancelamento de matrículas e ocupação no CT Caxangá.
+            Gerenciamento completo das turmas, categorias, cancelamento de matrículas e ocupação no Centauro.
           </p>
         </div>
 
@@ -441,7 +441,7 @@ export const ClassesModule: React.FC = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin size={14} className="text-slate-400 shrink-0" />
-                      <span className="truncate">{cls.location || 'CT Caxangá'}</span>
+                      <span className="truncate">{cls.location || 'Centauro'}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Users size={14} className="text-slate-400 shrink-0" />
@@ -841,7 +841,7 @@ export const ClassesModule: React.FC = () => {
             <Input
               id="class_loc"
               label="Local do Treino"
-              placeholder="Ex: Campo 1 - CT Caxangá"
+              placeholder="Ex: Campo 1 - Centauro"
               value={newLocation}
               onChange={(e) => setNewLocation(e.target.value)}
             />
@@ -932,7 +932,7 @@ export const ClassesModule: React.FC = () => {
               <Input
                 id="edit_class_loc"
                 label="Local do Treino"
-                placeholder="Ex: Campo 1 - CT Caxangá"
+                placeholder="Ex: Campo 1 - Centauro"
                 value={editLocation}
                 onChange={(e) => setEditLocation(e.target.value)}
               />

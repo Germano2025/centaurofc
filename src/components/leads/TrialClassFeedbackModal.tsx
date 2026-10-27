@@ -55,7 +55,7 @@ export const TrialClassFeedbackModal: React.FC<TrialClassFeedbackModalProps> = (
           value={decision}
           onChange={(e) => setDecision(e.target.value as TrialFeedbackDecision)}
           options={[
-            { value: 'CONTINUAR', label: 'Quer Matricular (Continuar no CT Caxangá)' },
+            { value: 'CONTINUAR', label: 'Quer Matricular (Continuar no Centauro)' },
             { value: 'AINDA_NAO_DECIDIU', label: 'Ainda Não Decidiu / Pensando' },
             { value: 'NAO_CONTINUAR', label: 'Desistiu / Não tem interesse no momento' },
           ]}

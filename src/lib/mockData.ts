@@ -30,7 +30,7 @@ export const initialClasses: SoccerClass[] = [
     capacity_recommended: 25,
     active: true,
     coach_name: 'Prof. Rafael',
-    location: 'Campo Principal CT Caxangá',
+    location: 'Campo Principal Centauro',
     created_at: new Date().toISOString(),
   },
   {
@@ -43,7 +43,7 @@ export const initialClasses: SoccerClass[] = [
     capacity_recommended: 30,
     active: true,
     coach_name: 'Prof. Gabriel',
-    location: 'Campo Principal CT Caxangá',
+    location: 'Campo Principal Centauro',
     created_at: new Date().toISOString(),
   },
   {
@@ -56,7 +56,7 @@ export const initialClasses: SoccerClass[] = [
     capacity_recommended: 30,
     active: true,
     coach_name: 'Prof. Gabriel',
-    location: 'Campo Principal CT Caxangá',
+    location: 'Campo Principal Centauro',
     created_at: new Date().toISOString(),
   },
   {
@@ -68,8 +68,8 @@ export const initialClasses: SoccerClass[] = [
     schedule_time: '17:00 - 18:30',
     capacity_recommended: 30,
     active: true,
-    coach_name: 'Prof. Marcelo',
-    location: 'Campo Principal CT Caxangá',
+    coach_name: 'Prof. Gabriel',
+    location: 'Campo Principal Centauro',
     created_at: new Date().toISOString(),
   },
 ];

@@ -859,7 +859,7 @@ export const AthleteFormPage: React.FC<AthleteFormPageProps> = ({
           <p className="text-xs sm:text-sm text-slate-500">
             {athleteToEdit
               ? 'Atualize os dados pessoais, turma, financeiro ou documentos do atleta.'
-              : 'Preencha o formulário para matricular e cadastrar um novo atleta no CT Caxangá.'}
+              : 'Preencha o formulário para matricular e cadastrar um novo atleta no Centauro.'}
           </p>
         </div>
 

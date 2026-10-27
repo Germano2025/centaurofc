@@ -2604,7 +2604,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       id: `lt-${Date.now()}`,
       lead_id: lead.id,
       action_type: 'MATRICULA_EFETIVADA',
-      title: 'Matrícula Efetivada no CT',
+      title: 'Matrícula Efetivada no Centauro',
       description: `Conversão realizada com sucesso! Atleta ativo criado com ID ${finalAthlete.id} na turma ${className}. Vencimento: dia ${params.paymentDueDay}.${uniformFee > 0 ? ` Uniforme: R$ ${uniformFee} (${params.uniformPaid ? 'Pago' : 'Pendente'}).` : ''}`,
       previous_stage: lead.stage,
       new_stage: 'MATRICULADO',

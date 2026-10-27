@@ -115,7 +115,7 @@ export const DashboardView: React.FC = () => {
             trendBadge={
               dashboardMetrics.newAthletesPeriod > 0
                 ? { text: `+${dashboardMetrics.newAthletesPeriod} no mês`, variant: 'success' }
-                : { text: 'Alunos no CT', variant: 'neutral' }
+                : { text: 'Alunos no Centauro', variant: 'neutral' }
             }
             onClick={() => setActiveModule('atletas')}
           />
@@ -329,7 +329,7 @@ export const DashboardView: React.FC = () => {
             Ações Rápidas de Gestão
           </h4>
           <p className="text-xs text-slate-300 mt-0.5">
-            Acesse diretamente os cadastros e rotinas operacionais do CT.
+            Acesse diretamente os cadastros e rotinas operacionais do Centauro.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">

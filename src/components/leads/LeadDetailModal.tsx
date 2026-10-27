@@ -138,7 +138,7 @@ export const LeadDetailModal: React.FC<LeadDetailModalProps> = ({
     if (quickActionType === 'CONTATO') title = 'Contato com Responsável';
     else if (quickActionType === 'WHATSAPP') title = 'Mensagem WhatsApp Enviada';
     else if (quickActionType === 'LIGACAO') title = 'Ligação Telefônica';
-    else if (quickActionType === 'VISITA') title = 'Visita Presencial ao CT';
+    else if (quickActionType === 'VISITA') title = 'Visita Presencial ao Centauro';
     else if (quickActionType === 'FEEDBACK') title = 'Anotação de Feedback';
 
     addLeadTimelineEvent(lead.id, quickActionType, title, quickNote.trim(), 'Recepção / Coordenação');

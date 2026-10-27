@@ -69,7 +69,7 @@ export const PaymentModal: React.FC = () => {
 
   // Extra Revenue specific
   const [extraCategory, setExtraCategory] = useState<ExtraRevenueCategory>('UNIFORME');
-  const [extraDescription, setExtraDescription] = useState('Uniforme Oficial CT Caxangá');
+  const [extraDescription, setExtraDescription] = useState('Uniforme Oficial Centauro');
 
   // Direct Fee Payment (Dar Baixa) specific
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('PIX');

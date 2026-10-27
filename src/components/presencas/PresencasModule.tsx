@@ -110,7 +110,7 @@ export const PresencasModule: React.FC = () => {
           class_name: selectedClass?.name || 'Turma Oficial',
           training_date: selectedDate,
           training_time: selectedClass?.schedule_time || '08:00 - 09:30',
-          location: selectedClass?.location || 'Campo Principal CT Caxangá',
+          location: selectedClass?.location || 'Campo Principal Centauro',
           training_type: 'REGULAR',
           status: 'REALIZADO',
           coach_name: selectedClass?.coach_name || 'Comissão Técnica',

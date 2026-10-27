@@ -244,7 +244,7 @@ export const GamesReport: React.FC<GamesReportProps> = ({
         isCompleted ? oppScore : '',
         resStr,
         m.status,
-        m.location || 'CT Caxangá',
+        m.location || 'Centauro',
       ];
     });
 
@@ -537,7 +537,7 @@ export const GamesReport: React.FC<GamesReportProps> = ({
                         )}
                       </td>
                       <td className="py-2.5 px-3 text-slate-600">
-                        {m.location || 'CT Caxangá'}
+                        {m.location || 'Centauro'}
                       </td>
                       <td className="py-2.5 px-3">
                         {goalsInThisMatch.length > 0 ? (

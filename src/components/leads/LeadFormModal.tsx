@@ -105,7 +105,7 @@ export const LeadFormModal: React.FC<LeadFormModalProps> = ({
       const dupAthlete = checkDuplicateAthlete(cleanCpf, normName, athleteBirthDate);
       if (dupAthlete) {
         setDuplicateWarning(
-          `Atenção: Já existe um atleta cadastrado no CT com estes dados: "${dupAthlete.name}" (Status: ${dupAthlete.status}). Verifique para evitar duplicidade.`
+          `Atenção: Já existe um atleta cadastrado no Centauro com estes dados: "${dupAthlete.name}" (Status: ${dupAthlete.status}). Verifique para evitar duplicidade.`
         );
         return;
       }
@@ -354,7 +354,7 @@ export const LeadFormModal: React.FC<LeadFormModalProps> = ({
                 { value: 'WHATSAPP', label: 'WhatsApp Direto' },
                 { value: 'INSTAGRAM', label: 'Instagram / Redes Sociais' },
                 { value: 'INDICACAO', label: 'Indicação de Aluno/Amigo' },
-                { value: 'PASSANTE', label: 'Passante / Visita Presencial ao CT' },
+                { value: 'PASSANTE', label: 'Passante / Visita Presencial ao Centauro' },
                 { value: 'FORMULARIO_EXTERNO', label: 'Formulário Online / Site' },
                 { value: 'FACEBOOK', label: 'Facebook Ads' },
                 { value: 'GOOGLE', label: 'Google Pesquisa / Maps' },

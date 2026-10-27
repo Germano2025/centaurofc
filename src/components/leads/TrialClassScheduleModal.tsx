@@ -44,10 +44,10 @@ export const TrialClassScheduleModal: React.FC<TrialClassScheduleModalProps> = (
         lead_id: lead.id,
         athlete_name: lead.athlete_name,
         class_id: classId,
-        class_name: selectedClass?.name || 'Turma CT Caxangá',
+        class_name: selectedClass?.name || 'Turma Centauro',
         class_date: classDate,
         class_time: classTime,
-        location: 'CT Caxangá - Campo Principal',
+        location: 'Centauro - Campo Principal',
         notes,
         status: 'AGENDADA',
       });

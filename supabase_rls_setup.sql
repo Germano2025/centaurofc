@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS public.audit_logs (
 -- 3. TABELAS OPERACIONAIS & CADASTRAIS (TURMAS, RESPONSÁVEIS, ATLETAS)
 -- ==============================================================================
 
--- 3.1 TABELA: SOCCER_CLASSES (Turmas, Horários e Categorias do CT)
+-- 3.1 TABELA: SOCCER_CLASSES (Turmas, Horários e Categorias do Centauro)
 CREATE TABLE IF NOT EXISTS public.soccer_classes (
   id TEXT PRIMARY KEY DEFAULT ('c-' || EXTRACT(EPOCH FROM NOW())::BIGINT || '-' || FLOOR(RANDOM() * 1000)::INT),
   name TEXT NOT NULL,
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS public.responsibles (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- 3.3 TABELA: ATHLETES (Atletas Matriculados no CT)
+-- 3.3 TABELA: ATHLETES (Atletas Matriculados no Centauro)
 CREATE TABLE IF NOT EXISTS public.athletes (
   id TEXT PRIMARY KEY DEFAULT ('a-' || EXTRACT(EPOCH FROM NOW())::BIGINT || '-' || FLOOR(RANDOM() * 1000)::INT),
   name TEXT NOT NULL,

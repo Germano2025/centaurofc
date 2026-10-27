@@ -116,7 +116,7 @@ export const ShareLeadFormModal: React.FC<ShareLeadFormModalProps> = ({
                 <p className="text-[11px] text-slate-500">Imprima para os pais escanearem diretamente na recepção.</p>
                 <a
                   href={qrCodeUrl}
-                  download="qrcode-inscricao-ct-caxanga.png"
+                  download="qrcode-inscricao-centauro.png"
                   className="inline-flex items-center gap-1.5 text-xs text-blue-600 font-bold hover:underline pt-1"
                 >
                   <Download size={13} />

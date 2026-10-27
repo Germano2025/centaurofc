@@ -366,7 +366,7 @@ export const PublicLeadForm: React.FC<PublicLeadFormProps> = ({ onLeadAdded }) =
               </h2>
               <p className="text-sm text-slate-600 max-w-lg mx-auto leading-relaxed">
                 Os dados do(a) aluno(a) <strong className="text-slate-900">{submittedLead.athlete_name}</strong> foram
-                enviados e registrados com sucesso no sistema do <strong>CT Caxangá</strong>.
+                enviados e registrados com sucesso no sistema do <strong>Centauro</strong>.
               </p>
               <p className="text-xs text-slate-500 max-w-md mx-auto">
                 A coordenação entrará em contato com o responsável <strong>{submittedLead.responsible_name}</strong> para agendar a aula experimental.
@@ -410,7 +410,7 @@ export const PublicLeadForm: React.FC<PublicLeadFormProps> = ({ onLeadAdded }) =
               )}
               <div className="flex justify-between pt-1">
                 <span className="text-slate-500">Local da Escolinha:</span>
-                <span className="font-semibold text-blue-700">CT Caxangá — Recife/PE</span>
+                <span className="font-semibold text-blue-700">Centauro — Recife/PE</span>
               </div>
             </div>
 
@@ -439,7 +439,7 @@ export const PublicLeadForm: React.FC<PublicLeadFormProps> = ({ onLeadAdded }) =
                 Inscrição para Aula Experimental
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto leading-relaxed">
-                Preencha os dados abaixo para o cadastro e agendamento da aula experimental no <strong>CT Caxangá</strong>.
+                Preencha os dados abaixo para o cadastro e agendamento da aula experimental no <strong>Centauro</strong>.
               </p>
             </div>
 
@@ -759,7 +759,7 @@ export const PublicLeadForm: React.FC<PublicLeadFormProps> = ({ onLeadAdded }) =
               <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-[11px] text-slate-500 flex items-center gap-1.5">
                   <Shield size={14} className="text-emerald-600 shrink-0" />
-                  <span>Seus dados são protegidos e usados exclusivamente para contato do CT.</span>
+                  <span>Seus dados são protegidos e usados exclusivamente para contato do Centauro.</span>
                 </div>
 
                 <button

@@ -217,7 +217,7 @@ export const LeadsModule: React.FC = () => {
   const kanbanColumns: { stage: KanbanStage; title: string; color: string; desc: string }[] = [
     { stage: 'NOVO', title: '1. Novo Contato', color: 'border-slate-300 bg-slate-50/50', desc: 'Inscrições e contatos recebidos' },
     { stage: 'AULA_AGENDADA', title: '2. Aula Agendada', color: 'border-amber-300 bg-amber-50/30', desc: 'Treino experimental agendado ou realizado' },
-    { stage: 'MATRICULADO', title: '3. Matriculado!', color: 'border-emerald-300 bg-emerald-50/30', desc: 'Atleta oficial ativo no CT' },
+    { stage: 'MATRICULADO', title: '3. Matriculado!', color: 'border-emerald-300 bg-emerald-50/30', desc: 'Atleta oficial ativo no Centauro' },
     { stage: 'NAO_CONVERTIDO', title: '4. Arquivado / Não Convertidos', color: 'border-rose-300 bg-rose-50/30', desc: 'Desistências e contatos encerrados' },
   ];
 
@@ -467,7 +467,7 @@ export const LeadsModule: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-slate-300 mt-0.5 max-w-2xl leading-relaxed">
-              Disponibilize o link nas redes sociais, WhatsApp ou recepção do CT Caxangá. Todas as inscrições caem automaticamente em tempo real na coluna <strong>"1. Novo Contato"</strong> com a etiqueta <strong>Formulário Online</strong>.
+              Disponibilize o link nas redes sociais, WhatsApp ou recepção do Centauro. Todas as inscrições caem automaticamente em tempo real na coluna <strong>"1. Novo Contato"</strong> com a etiqueta <strong>Formulário Online</strong>.
             </p>
           </div>
         </div>
